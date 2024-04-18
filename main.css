@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #f604e2, #d61be7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+}
+.search {
+    width: 100%;
+    height: 55px;
+    border: 2px solid rgb(106, 102, 102);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input {
+    width: 75%;
+    height: 100%;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+}
+.search button {
+    width: 70px;
+    height: 100%;
+    background: #f604e2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.pokemonInfo {
+    margin-top: 5px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 5px;
+}
+.mainInfo {
+    display: flex;
+    align-items: center;
+}
+.mainInfo img {
+    display: none;
+    width: 96px;
+    height: 96px;
+}
+.PokemonName {
+    margin-bottom: 5px;
+}
+.recommend {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+    overflow: scroll;
+    display: none;
+}
+.recommend ul li {
+    list-style: none;
+    margin: 5px;
+    font-size: 1.5rem;
+    padding-left: 5px;
+}
+.recommend ul li:hover {
+    cursor: pointer;
+    background: #70c5ea;
+}
